@@ -6,6 +6,11 @@
 sh ./run_test_cases.sh
 ```
 
+## Run variance tests:
+```sh
+python3 code_solution/max3sat_test_variance.py
+```
+
 ## Provide input to exact solution:
 ```sh
 python3 code_solution/cs412_max3sat_exact.py
