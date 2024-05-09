@@ -1,4 +1,3 @@
-from .. import max3sat
 from max3sat import Clause, exact, approx
 from timeit import timeit
 from functools import partial
