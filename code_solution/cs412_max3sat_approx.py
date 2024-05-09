@@ -10,6 +10,7 @@ def approx(n_vars, clauses, silent=False):
     # O(n)
     assigments = [choice([True, False]) for _ in range(n_vars)]
 
+    # O(n + c)
     count = 0
     for c in clauses:
         if c.sat(assigments):

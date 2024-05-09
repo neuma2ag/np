@@ -8,6 +8,7 @@ def exact(n_vars, clauses, silent=False):
 
     maxi = 0
     perm = None
+    # O(2^n * c)
     for p in perms:
 
         count = 0

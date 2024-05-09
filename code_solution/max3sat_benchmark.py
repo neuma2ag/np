@@ -4,9 +4,6 @@ from max3sat import Clause
 from timeit import timeit
 from functools import partial
 from random import randint
-import sys
-
-sys.path.append("../code_solution")
 
 
 def run_test(n_vars, sources):
